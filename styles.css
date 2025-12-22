@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'CmasPlay';
+    src: url('CmasPlay.otf') format("opentype");
+}
+
+body {
+    font-family: 'CmasPlay';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid-background {
+    background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 14px, #D7E3F0 15px, #D7E3F0 16px),
+        repeating-linear-gradient(90deg, transparent, transparent 14px, #D7E3F0 15px, #D7E3F0 16px);
+    background-size: 15px 15px;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.main-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    width: 90%;
+}
+
+.logo-container .logo-img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.caption-text {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 10px;
+    font-family: 'CmasPlay';
+    color: #4caef7;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-text {
+    font-size: 300%;
+    background-color: #4caef7;
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: white;
+}
