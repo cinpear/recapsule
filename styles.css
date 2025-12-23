@@ -87,12 +87,33 @@ body {
 }
 
 .text {
-    font-size: 40px;
+    font-size: 35px;
     color: #4caef7;
 }
 
 h1 {
     color: #3457cd;
     margin: 16px auto;
-    font-size: 60px;
+    font-size: 50px;
+}
+
+blu {
+    color: #3457cd;
+    font-style: normal;
+}
+
+a {
+    color: #4caef7;
+    font-style: normal;
+}
+
+a:hover {
+    color: #3457cd;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #4caef7;
 }
